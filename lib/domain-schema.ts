@@ -30,7 +30,7 @@ export const domains = pgTable('domains', {
   id: text('id').primaryKey(),
   userId: text('user_id').references(() => users.id, { onDelete: 'cascade' }),
   domainName: text('domain_name').notNull().unique(),
-  dmarcPolicy: text('dmarc_policy').default(none),
+  dmarcPolicy: text('dmarc_policy').default('none'),
   spfStatus: boolean('spf_status'),
   dkimStatus: boolean('dkim_status'),
   reputationScore: text('reputation_score'),
