@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'DMARC Guardian - Automated Email Authentication & Reputation',
-  description: 'Value Proposition: Simplifies DMARC, SPF, and DKIM setup and continuous monitoring for small to medium businesses, preventing email spoofing, improving deliverability, and protecting sender reputation against cyber threats.',
+  description: 'Value Proposition: Simplifies DMARC, SPF, and DKIM setup and continuous monitoring for small to medi',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
