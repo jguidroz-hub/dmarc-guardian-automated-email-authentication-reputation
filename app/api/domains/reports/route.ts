@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/lib/auth';
 import { db } from '@/lib/db';
-import { domainsReports } from '@/lib/domain-schema';
+import { domains } from '@/lib/domain-schema';
 import { eq, desc } from 'drizzle-orm';
 import { randomUUID } from 'crypto';
 
